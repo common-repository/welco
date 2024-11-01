@@ -1,0 +1,130 @@
+#shipping_method label[for=shipping_method_0_welco] img{
+    width: 100px;
+}
+
+.woocommerce .cart-collaterals{
+    display: flex;
+    flex-direction: column;
+}
+
+.woocommerce .cart-collaterals .cart_totals{
+    width: 100% !important;
+}
+
+#welcoContainer .WnG_customCheckbox+label:after{
+    top: 0 !important;
+    left: 13px !important;
+}
+
+#tableau{
+    width: 100%;
+    text-align: center;
+}
+#tableau table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+#tableau .table-welco td{
+    border: none;
+    background-color: #FFF;
+    height: 5rem;
+}
+
+#tableau .table-welco th{
+    padding: 10px;
+}
+
+#tableau table td img{
+    width: 10rem;
+    max-width: 100%;
+}
+
+button.btn-cmd-welco {
+    color: #FFF;
+    background-color: #5dc8ee;
+    border: 1px solid #0a4b78;
+    border-radius: 20px;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 2rem;
+    cursor: pointer;
+    display: flex;
+}
+
+div.welco-btn-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+div.welco-btn-footer button:last-of-type{
+    margin-top: 1rem;
+}
+
+/* loader--------------*/
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-left: 1rem;
+}
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    margin: 5px;
+    border: 1px solid #cef;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #cef transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*---------------*/
+
+#form-settings-welco div{
+    margin: 2rem 0;
+}
+
+#form-settings-welco div label{
+    display: block;
+}
+
+
+@media (min-width: 992px) {
+    .woocommerce .cart-collaterals{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .woocommerce .cart-collaterals .cart_totals{
+        width: 40% !important;
+        margin-right: 3rem;
+    }
+
+    .woocommerce .cart-collaterals #welcoContainer{
+        width: 60% !important;
+    }
+}
